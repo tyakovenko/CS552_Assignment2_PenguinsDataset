@@ -45,6 +45,9 @@ The accuracy and AUC per digit are provided in detail below for each of the algo
 Linear Regression | 0.9327   | 0.9259   | 0.9950   | 0.9942
 Naive Bayes     | 0.8246   | 0.8357   | 0.9797   | 0.9812
 
+![AUCACCChart](avgAUCACC_MNIST.png)
+
+
 
 #### Logistic Regression
 <div align="center">
