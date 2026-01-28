@@ -19,7 +19,7 @@ The logistic regression (LR) accuracy is 100% while the Naive Bayes (NB) is 95.3
 For both of the algorithm and both of the dataset, the AUC is near perfect meaning that the two selected classes are nearly perfectly seperated from one another making identification relatively easy. Overall, the LR model is more effective, however, the NB model has a great chance of generalization when new samples are classified.
 
 ### Lift and Gain Chart
-![Lift and Gain Chart](combined_gain_comparison.png)
+![Lift and Gain Chart](combined_gain_lift_comparison.png)
 
 Based on the chart, the models perform identically with the exception of the following regions. For the 'Chinstrap' species, the deviation happens around 38-55% of the data. In that interval, the LR model continues to increase it's performance while the NB model stabilies before it increases it's performance closer to LR in the region of 55% of the data. Past 60% of the data, both models perform equally well. Prior to 40% of the data threshold, the models increase at a consistent rate with one another. 
 
